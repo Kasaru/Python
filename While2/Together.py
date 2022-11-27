@@ -1,0 +1,12 @@
+n = int(input())
+SUM = 0
+LEN = len(str(n))
+MUL = 1
+FIRST = 0
+SUM2 = n%10
+while n!=0:
+    SUM += n%10
+    MUL *= n%10
+    FIRST = n
+    n = n//10
+print(SUM,LEN,MUL,SUM/LEN,FIRST,SUM2+FIRST,sep="\n")
