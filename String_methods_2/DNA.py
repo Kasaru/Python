@@ -1,0 +1,6 @@
+s = input().lower()
+a,b,c,d = s.count('а'),s.count('г'),s.count('ц'),s.count('т')
+print("Аденин:",a)
+print("Гуанин:",b)
+print("Цитозин:",c)
+print("Тимин:",d)
