@@ -1,0 +1,6 @@
+l = input().split(" ")
+l = list(map(int,l))
+l.sort()
+print(*l)
+l.sort(reverse = True)
+print(*l)

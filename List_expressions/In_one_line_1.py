@@ -1,0 +1,1 @@
+l = [print(m) for m in (input().split(" "))]
